@@ -1,5 +1,9 @@
 body {
-    background-color: lightblue;
+    background-image: linear-gradient(to right, cornflowerblue, rgb(184, 141, 224));
+}
+
+h1 {
+    text-decoration: underline;
 }
 
 #links { 
@@ -8,17 +12,59 @@ body {
     border-radius: 5px;
     width: 140px;
     text-align: center;
+    text-shadow: black 0.35px 0.35px;
 }
 
 img {
-    border-radius: 10%;
+    border-radius: 15%;
 }
 
 #salespitch {
-    text-decoration: underline;
+    text-shadow: black 0.35px 0.35px;
 }
 
 
+p {
+    text-shadow: black 0.35px 0.35px;
+    font-size: larger;
+}
 
+h2 {
+    text-decoration: underline;
+    text-shadow: black 0.35px 0.35px;
+}
 
+li {
+    text-shadow: black 0.35px 0.35px;
+    font-size: larger;
+}
 
+table {
+    border: black;
+    border-style: solid;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(54, 169, 204);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(56, 224, 188);
+}
+
+tr:hover {
+    background-color: slategray;
+}
+
+form {
+    border: grey;
+    border-style: groove;
+    width: 170px;
+    text-align: center;
+}
